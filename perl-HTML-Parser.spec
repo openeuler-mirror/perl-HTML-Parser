@@ -1,10 +1,10 @@
 Name:           perl-HTML-Parser
-Version:        3.72
-Release:        16
+Version:        3.73
+Release:        1
 Summary:        HTML parser
 License:        GPL+ or Artistic
 URL:            https://metacpan.org/release/HTML-Parser
-Source0:        https://cpan.metacpan.org/authors/id/G/GA/GAAS/HTML-Parser-%{version}.tar.gz
+Source0:        https://cpan.metacpan.org/authors/id/C/CA/CAPOEIRAB/HTML-Parser-%{version}.tar.gz
 
 BuildRequires:  coreutils findutils glibc-common
 BuildRequires:  perl-devel perl-generators perl-interpreter perl(Carp)
@@ -55,6 +55,9 @@ make test
 %{_mandir}/man3/*.3pm*
 
 %changelog
+* Sat Aug 29 2020 shixuantong<shixuantong@huawei.com> - 3.73-1
+- update version to 3.73
+
 * Mon Oct 21 2019 Zaiwang Li <lizaiwang1@huawei.com> - 3.72-16
 - Init Package.
 
