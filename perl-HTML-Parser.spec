@@ -1,12 +1,12 @@
 Name:           perl-HTML-Parser
 Version:        3.75
-Release:        1
+Release:        2
 Summary:        HTML parser
 License:        GPL+ or Artistic
 URL:            https://metacpan.org/release/HTML-Parser
 Source0:        https://cpan.metacpan.org/authors/id/C/CA/CAPOEIRAB/HTML-Parser-%{version}.tar.gz
 
-BuildRequires:  coreutils findutils glibc-common
+BuildRequires:  coreutils findutils glibc-common gcc
 BuildRequires:  perl-devel perl-generators perl-interpreter perl(Carp)
 BuildRequires:  perl(Config) perl(Exporter) perl(ExtUtils::MakeMaker) >= 6.76
 BuildRequires:  perl(File::Spec) perl(FileHandle) perl(HTML::Tagset) >= 3
@@ -55,6 +55,12 @@ make test
 %{_mandir}/man3/*.3pm*
 
 %changelog
+* Wed Jun 23 2021 shangyibin <shangyibin1@openeuler.org> - 3.75-2
+- Type:bugfix
+- ID:NA
+- SUG:NA
+- DESC:add gcc to BuildRequires
+
 * Thu Oct 29 2020 SimpleUpdate Robot <tc@openeuler.org> - 3.75-1
 - Upgrade to version 3.75
 
