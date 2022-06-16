@@ -1,5 +1,5 @@
 Name:           perl-HTML-Parser
-Version:        3.76
+Version:        3.78
 Release:        1
 Summary:        HTML parser
 License:        GPL+ or Artistic
@@ -55,6 +55,9 @@ make test
 %{_mandir}/man3/*.3pm*
 
 %changelog
+* Tue Jun 14 2022 SimpleUpdate Robot <tc@openeuler.org> - 3.78-1
+- Upgrade to version 3.78
+
 * Fri Dec 3  2021 guozhaorui <guozhaorui1@huawei.com> -3.76-1
 - update to 3.76-1
 
